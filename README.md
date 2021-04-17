@@ -44,10 +44,11 @@ table.
 Doing such we obtain the original, file that we had compressed. Thus, decompression is successful.
 
 The program will run as follows:
-# here the first two commands are for compression and
-# later two demonstrate decompression
-./program -c1 <file> <compressed-file-name>
-./program -c2 <file> <compressed-file-name>
-./program -uc1 <compressed-file> <uncompressed-file>
-./program -uc2 <compressed-file> <uncompressed-file>
-
+## here the first two commands are for compression and
+## later two demonstrate decompression
+```
+$ ./program -c1 <file> <compressed-file-name>
+$ ./program -c2 <file> <compressed-file-name>
+$ ./program -uc1 <compressed-file> <uncompressed-file>
+$ ./program -uc2 <compressed-file> <uncompressed-file>
+```
